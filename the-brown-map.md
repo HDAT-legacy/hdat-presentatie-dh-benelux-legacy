@@ -50,28 +50,38 @@ As to so far the main academical concerns. The technical stuff is also there. We
 
 So what tech are we actually using, and what level of skill is required for it? 
 
-(( How deep i’ll go into this is dependent on the available time ))
-
 ### Build:
 - Git and Github for version control - the code is opensource and downloadable there.
 - Gulp and Shell scripts for the build-process
 - PostgreSQL, PostGIS and PG-Routing for the geographical stuff.
 - QGIS to create the route network 
+- Tilemill to create the map
 
 ### Client-side:
 - Default webstack: HTML / CSS / JS
 - Leaflet (for the map) with a plugin Leaflet Playback (heavily edited)
 
-### Build side
+### Build side (optional)
 
 First off the building side of things. The version control I spoke about before, well that is done with Git and Github. This is a tool by which you have explicitly define what changes you want to ‘commit’ the ‘repository’. It’s quite cool, especially if you’ve used it a while and know the command line interface that comes with it. I’ve actually started using it for writing papers and stuff. 
 
 Secondly build-automation, we hate telling the database everything to take in a clean version of the BGB data, mutate it, take in the route network etc. etc. So we use tools for this, right now those are a few shell scripts and the task runner Gulp. I’ll won’t go into these as they are quite specific, just remember the concept that the more you can automate the better it is.
 
-Databases. Now we’re getting to the geographical shit. The Huygens send us a MySQL database, yet MySQL didn’t offer us enough out of the box functions. We had to convert to PostgreSQL because of it’s extensibility. We needed PostGIS and PGrouting. These two are quite cool, PostGIS has all kinds of functions out of the box for geometry. You won’t have to call upon that geometry you learned in high school, the math/ICT guys did that for you. PGrouting is again an extension of PostGIS. This tool is basically a routing feature like in Google Maps. You give it two coordinates and a route network, and it give you back the shortest route. 
+Thirdly the choice of Database Management System. The Huygens institute send us a MySQL database, yet MySQL didn’t offer us enough out of the box functions. We had to convert to PostgreSQL because of it’s extensibility with PostGIS and PGrouting. These two are quite cool, PostGIS has all kinds of functions out of the box for geometry. We didn’t have to call upon that geometry learned in high school, the math/ICT guys did that for us. PGrouting is again an extension of PostGIS. This tool is basically a routing feature like in Google Maps. You give it two coordinates and a route network, and it give you back the shortest route. I’d say this stack is the most involved to learn, you have to learn SQL and to use functions pl/pgSQL. A nice additional tool in this context PSequel, which provides a graphical interface to the database to view what you’re doing. 
 
-That brings me to the last tool QGIS. QGIS is a graphical interface to manipulate geographical data. It can process all geographic information and give you insight in what you have before you actually have your app done. It also can be used to create geographical data like we did for the routing network. It’s quite good, and easy to use if you’ve got no understanding at all. I can be a little counter-intuitive at times though, but you get over it quite quickly. 
+That brings me to the last tool QGIS. QGIS is a graphical interface to manipulate geographical data. It can process all geographic information and give you insight in what you have before you actually have your app done. It also can be used to create geographical data like we did for the routing network. It’s quite good, and easy to use if you’ve got no understanding at all. I can be a little counter-intuitive at times though, but you get over it quite quickly.
 
+As a side note: the map you’re seeing was created with Tile-mill. The program allows you to edit maps to your liking, and then export the tiles you desire.
+
+### Client side (optional)
+
+First and foremost the basic and age-old web-stack: HTML, CSS, Javascript. To do anything custom on the web you simply need to know these. You will be able to do something cool with it quite fast, but it’s a large stack. To know it well will take some time. But the rewards are great, you’ll probably use them quite a bit. Every project now-a-days needs a website, and people whom can edit them. Even the e-pub standard uses CSS. These languages are everywhere. 
+
+Aside from the basic web-stack we actually barely did anything. We included the library Leaflet, which does all the mapping stuff for us and provides a very clean API. Again the ICT guys did all of the hard labour and provided us with simple tools. Form the temporal element in the visualization we used the plugin Leaflet Playback. This plugin we needed to edit here and there, because our demands we’re quite a bit more heavy than it was build for. But most of the logic is precisely the same.
+
+### General
+
+All of the things I’ve told you about are individually actually quite simple and quite fast to learn. To learn all of them however takes time. Even we both have our specialities on the project: I barely know anything about the tile-generation. Erik knows less about the temporal logic. But we both know the important hinges in the program. 
 
 ## Future
 
