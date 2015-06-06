@@ -85,9 +85,11 @@ All of the things I’ve told you about are individually actually quite simple a
 
 ## Future
 
-Right now you’re only viewing a prototype. We’ve kept the interpretation deliberately open in our presentation because we simply do not know yet what all of this tells us. We haven’t really had the time to do good contextual research. There is so much here. And so much we still want to do! We’ve already got an experiment running with the goods that are in the database. We’ve enumerated on them and build a thing that can visualize basic Minard diagrams. It not even close to finished, but it already showing cool things. We’ve got plans to add a few other layers, like major events to contextualize what is shown for people who’ve got no idea of them. Besides that we’ve still got plenty of ideas to burn trough, but eventually time will determine how far we’ll get with that.  
+Right now you’re only viewing a prototype. We’ve kept the interpretation deliberately open in our presentation because we simply do not know yet what all of this tells us. We haven’t really had the time to do good contextual research. Erik is going to try to write his thesis on the subject so it should have a document in coming year that explores the tool and the information it provides from a proper academic viewpoint.
 
-Erik is also going to try to write his thesis on the subject so it should have a document in coming year that explores the tool and the information it provides from a proper academic viewpoint. We’d really appreciate to know what you think! Test the app, and leave a comment. We’re also the demo later on, but it’s available online.
+Besides that we plan to add additional features. We’ve already got an experiment running with the goods that are in the database. We’ve enumerated on them and build a layer that can visualize basic Minard diagrams. It not even close to finished, but it already showing cool things. We’ve got plans to add a few other layers, like major events to contextualize what is shown for people who’ve got no idea of them. Besides that we’ve still got plenty of ideas to burn trough, but eventually time will determine how far we’ll get with that.  
+
+For now we’d really appreciate to know what you think! Test the app, and leave a comment. We’re also the demo later on, but it’s available online.
 
 www.thebrownmap.nl
 
