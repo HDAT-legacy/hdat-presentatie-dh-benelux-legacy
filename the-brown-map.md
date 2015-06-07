@@ -60,9 +60,9 @@ Another problem we encountered had to do with our goals. Right now we have got a
 
 ## Technical Concerns
 
-As to so far the main academical concerns. The technical stuff is also there. We had several things to consider for this one. First of, we we’re taught web-based tools. This is a great thing, but also a limitation. We don’t have much resources at our disposal for rendering stuff. This is the reason that we don’t show the full dataset right now, it would slow many computers down to a halt. It’s also why we do a lot of calculation while building the app. But there are also advantages. We’re working straight in an environment that is always published right away. This means user interface is immediately a concern. The obvious advantage is that it is published immediately. Everyone can see, try, and test it. 
+As to so far the main academical concerns. The technical stuff is also there. We had several things to consider for this one. First of, we where taught web-based tools. This is a great thing, but also a limitation. We don’t have much resources at our disposal for rendering stuff. This is why we don’t show the full dataset online right now, it would slow many computers down to a halt. It’s also why we do a lot of calculation while building the app. But there are also advantages. We’re working straight in an environment that is always published right away. This means user interface is immediately a concern. The obvious advantage is that it is published immediately. Everyone can see, try, and test it. 
 
-Below is a list of the technologies we’ve used listed. All of the things are individually actually quite simple to learn. To learn all of them however takes time. Even we both still have our specialities on the project: I barely know anything about the tile-generation. Erik knows less about the temporal logic. But we both know the important hinges in the program. 
+Below is a list of the technologies we’ve used listed. All of the things in here are individually actually quite simple to learn. To learn all of them however takes time. Even we both still have our specialities on the project: I barely know anything about the tile-generation. Erik knows less about the temporal logic. But we both know the important hinges in the program. 
 
 ### Build:
 - Git and Github for version control - the code is opensource and downloadable there.
