@@ -73,6 +73,21 @@ Below is a list of the technologies we’ve used listed. All of the things are i
 - Default webstack: HTML / CSS / JS
 - Leaflet (for the map) with a plugin Leaflet Playback (heavily edited)
 
+## Future
+
+Right now you’re only viewing a prototype. We’ve kept the interpretation deliberately open in our presentation because we simply do not know yet what all of this tells us. We haven’t really had the time to do good contextual research. Erik is going to write his thesis on the subject so it should have a document in coming year that explores the tool and the information it provides from a proper academic viewpoint.
+
+Besides that we plan to add additional features. Academically interesting is a feature we’re already well on our way of implementing. We’ve enumerated on the goods in the database and build a layer that can visualize basic Minard diagrams. It still needs quite a bit of love, but it’s already showing cool things. Things like evangelical goods to show the attempts at spreading religion, or the amount of military goods to show military capability. The trade of metals also shows interesting patterns.  All of these could prove to be quite interesting and academically thrustworthy if one is able to generate graphs and review (and perhaps download) the data that constructed them with a simple click. 
+
+We’ve also got plans to add a few other layers for narrative, like major events to contextualize what is shown for people who’ve got no idea of them. There are many interesting events like wars, the closing and opening of diplomatic relations, etcetera. Together we hope to provide an interesting environment to explore the VOC in a decent manner. Besides that we’ve still got plenty of ideas to burn trough, but eventually time will determine how far we’ll get with that. 
+
+Im out of time I believe.  We’d really appreciate to know what you think! Test the app and leave a comment. We’re also at the demo later on, but you can find it online here:
+
+www.thebrownmap.nl
+
+Also to close off, we would really like to thank all our teachers at the University of Amsterdam and the Vrije Universiteit. In particular Marijn Koolen and Jan Hein Hoogstad and their project Coding the Humanities / Unacademic for teaching us and sponsoring us to actually be here! 
+
+## Questions!
 
 
 
@@ -108,18 +123,4 @@ Aside from the basic web-stack we actually barely did anything. We included the 
 
 
 
-## Future
 
-Right now you’re only viewing a prototype. We’ve kept the interpretation deliberately open in our presentation because we simply do not know yet what all of this tells us. We haven’t really had the time to do good contextual research. Erik is going to write his thesis on the subject so it should have a document in coming year that explores the tool and the information it provides from a proper academic viewpoint.
-
-Besides that we plan to add additional features. Academically interesting is a feature we’re already well on our way of implementing. We’ve enumerated on the goods in the database and build a layer that can visualize basic Minard diagrams. It still needs quite a bit of love, but it’s already showing cool things. Things like evangelical goods to show the attempts at spreading religion, or the amount of military goods to show military capability. The trade of metals also shows interesting patterns.  All of these could prove to be quite interesting and academically thrustworthy if one is able to generate graphs and review (and perhaps download) the data that constructed them with a simple click. 
-
-We’ve also got plans to add a few other layers for narrative, like major events to contextualize what is shown for people who’ve got no idea of them. There are many interesting events like wars, the closing and opening of diplomatic relations, etcetera. Together we hope to provide an interesting environment to explore the VOC in a decent manner. Besides that we’ve still got plenty of ideas to burn trough, but eventually time will determine how far we’ll get with that. 
-
-Im out of time I believe.  We’d really appreciate to know what you think! Test the app and leave a comment. We’re also at the demo later on, but you can find it online here:
-
-www.thebrownmap.nl
-
-Also to close off, we would really like to thank all our teachers at the University of Amsterdam and the Vrije Universiteit. In particular Marijn Koolen and Jan Hein Hoogstad and their project Coding the Humanities / Unacademic for teaching us and sponsoring us to actually be here! 
-
-## Questions!
