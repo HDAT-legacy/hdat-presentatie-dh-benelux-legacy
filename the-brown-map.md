@@ -97,6 +97,11 @@ Also to close off, we would really like to thank all our teachers at the Univers
 
 
 
+
+
+
+
+
 ### Build side (optional)
 
 First off the building side of things. The version control I spoke about before, well that is done with Git and Github. This is a tool by which you have explicitly define what changes you want to ‘commit’ the ‘repository’. It’s quite cool, especially if you’ve used it a while and know the command line interface that comes with it. I’ve actually started using it for writing papers and stuff. 
