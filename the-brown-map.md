@@ -26,7 +26,7 @@ At the same time we we’re always having the discussion as to its relevance. We
 
 ## The Tool
 
-Following that we did some ugly experiments but we eventually ended up at the actual tool you’ve been seeing in the background all along. We’ve got video’s in our presentation because of that’s less likely to fail and doesn’t require interaction. But the actual tool is available on thebrownmap.nl. Mind you, it’s still a prototype, it could have bugs.
+Knowing what we wanted we did some ugly experiments but we eventually ended up at the actual tool you’ve been seeing in the background all along. We have got video’s in our presentation because of that’s less likely to fail and doesn’t require interaction. But the actual tool is available on thebrownmap.nl. Mind you, it’s still a prototype, it could have bugs.
 
 What you’re seeing is actually three layers: the first and the most prominent is the historically styled satellite map. On top of that there is a route network, which might not be visible that well here. Finally the white dots you’re seeing are the actual ships. At the moment the interface allows you to interact with the map, manipulate time, and click the voyages. These currently link back to the Huygens/ING. We will expand on these features in due time. Right now we were actually quite happy we had the main visualization ready to show in time for this conference. 
 
